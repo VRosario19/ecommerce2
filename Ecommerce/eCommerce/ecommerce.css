@@ -1,0 +1,119 @@
+*{
+    background-color: beige;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    display: inline;
+}
+
+.prodhero{
+    width: 100%;
+    height: 400px;
+  }
+  
+  #heroprod{
+    position: relative;
+    text-align: center;
+  }
+  
+  #heroprod p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-style: italic;
+  }
+
+h1.quote{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+  }
+.Household{
+    width: 25%;
+    height: 25%;
+ }
+
+.Clothing{
+    width: 25%;
+    height: 25%;
+
+}
+
+.Accessories{
+    width: 22%;
+    height: 20%;
+}
+
+
+#products{
+    text-align: center;
+}
+
+ul.links{
+    font-size: 30px;
+    word-spacing: 150px;
+}
+
+.productpg{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+  }
+  
+.price{
+    color: black;
+    font-size: 25px;
+  }
+  
+  button{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #D46209;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+
+.row{
+    display: inline-block;
+}
+
+
+  .contact-form{ 
+    text-align: center;
+    }
+    
+    #contact-form{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .home-footer{
+        text-align: center;
+      }
+
+    @media only screen and (max-width: 800px) {
+        ul.navlist{
+        font-size: 250px !important;
+        width: 250px;
+        height: 100px;
+        }
+      }
